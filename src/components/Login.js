@@ -29,6 +29,7 @@ function Login() {
         <div className="login-box">
           <h2>¡Bienvenido, {formData.username}!</h2>
           <p>Has iniciado sesión correctamente.</p>
+          <p>¡Esperamos que disfrutes tu experiencia!</p>
           <button onClick={() => setLoggedIn(false)}>Cerrar sesión</button>
         </div>
       </div>
